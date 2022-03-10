@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--primary-color:#E0DDAA;
+--secondary-color:#203239;
+--text-color:#141E27;
+--dark-color:#151D3B;
+--clr-white:#fff;
+--clr-black:#000;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'PT Serif', serif;
+font-family: 'Roboto Slab', serif;
+background-color: var(--primary-color);
+color: var(--text-color);
+}
