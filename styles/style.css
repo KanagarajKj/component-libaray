@@ -20,9 +20,6 @@
 html{
     font-size: 16px;
 }
-.text-sm{
-    font-size: 0.8rem;;
-}
 
 body{
     font-family: 'PT Serif', serif;
@@ -31,9 +28,38 @@ background-color: var(--clr-primary);
 color: var(--clr-secondary);
 }
 
-hr {
-    margin: 2rem 0;
+a{
+    text-decoration: none;
 }
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+.text-sm{
+    font-size: 0.8rem;
+}
+
+/* Containers */
+.container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container {
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 70%;
+}
+
+/* Link Buttons */
+
 .btn {
   width: max-content;
   min-width: 9rem;
@@ -67,10 +93,94 @@ hr {
   border: 2px solid var(--clr-black);
   background-color: var(--clr-text);
 }
+
 .unordered{
     list-style: none;
     margin: 1rem;
 }
+
+.list-inline li{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.nav {
+  background-color: var(--clr-BG);
+  padding-top: 3rem;
+  padding-bottom: 3.5rem;
+  color: (--clr-text);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem; 
+}
+
+.nav .brand{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.nav ul{
+    text-align: right;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 1rem 0.5rem;
+}
+
+.nav ul li a{
+color: #151D3B;
+}
+
+/* HEADER */
+
+.container-hero img{
+    width: 360px;
+    height: auto;
+    border: 1rem solid var(--clr-primary);
+    border-radius: 50%;
+    display: block;
+}
+
+.img-circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 2px solid var(--clr-primary);
+}
+
+.section {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.section-dark{
+    background-color: var(--clr-mark);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.section-dark h2{
+    color:blueviolet;
+}
+
+.footer-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.footer li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem 2rem;
+}
+
+/* Global CSS */
+
+/* Custom CSS */
 
 .title {
     text-align: center;
@@ -94,72 +204,4 @@ hr {
 .section-title{
     text-align: center;
     color: var(--clr-color);
-}
-
-.list-inline li {
-  display: inline;
-  padding: 0rem 1rem;
-}
-
-.nav {
-  background-color: var(--clr-BG);
-  padding-top: 3rem;
-  padding-bottom: 3.5rem;
-  color: (--clr-text);
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem; 
-}
-
-.nav .brand{
-    display: inline-block;
-    font-size: 1.5rem;
-    font-weight: 300;
-}
-
-.nav ul li a{
-text-decoration: none;
-}
-
-.nav ul li{
-    display: inline-block;
-    float: right;
-    padding: 0rem 1rem;
-}
-
-.btn-primary-outline{
-    text-decoration: none;
-}
-
-.container-hero img{
-    border: 1rem solid var(--clr-primary);
-    border-radius: 50%;
-}
-.section {
-    text-align: center;
-    font-size: 1rem;
-}
-
-.section-dark{
-    background-color: var(--clr-mark);
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 800;
-}
-
-.section .section-title{
-    color: blueviolet;
-}
-
-.section-dark h2{
-    color:blueviolet;
-}
-
-.unordered-list-inline li{
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    
-}
-
 
