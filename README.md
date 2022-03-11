@@ -48,3 +48,10 @@ Component library built from scratch for my Portfolio and Further projects
 ```
 
 ## section
+```
+-Heading inside section
+
+#Footer
+```
+-Links
+-Copyright

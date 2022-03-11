@@ -8,9 +8,138 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-  <h1>Component Library</h1>
-  <P><strong>KANAGARAJ</strong>I am Building My own library which for building my portfolio.</P>
-  <p>This component library created to assist for my better design.</p>
-  <p>With thwe help of this libaray,I will use the component for all the projects,this will ensure all of my projects have concistent theming and styling.</p>
+    
+    <header>
+        <h1 class="title">Component Library</h1>
+        <div class="description">
+         <P><strong class="mark">KANAGARAJ</strong> I am Building My own library which for building my portfolio.</P>
+         <p>This component library created to assist for my better design.</p>
+         <p>With thwe help of this libaray,I will use the component for all the projects,this will ensure all of my projects have concistent theming and styling.</p>   
+          </div>
+</header>
+<hr />
+<main>
+    <section class="typography">
+        <h2 class="section-title">@Typography</h2>
+        <br>
+        <h1>Main Title</h1>
+        <h2>Section Tiltle</h2>
+        <h3>Sub Heading</h3>
+        <p class="text-sm">This is relatively smaller text</p>
+    </section>
+    <hr>
+    <section class="containers">
+        <h2 class="section-title">@Containers</h2>
+        <br>
+        <div class="container-fluid">
+            This is going to be a fluid container.It will go full width of the page,with a little margin.
+        </div>
+        <div class="container">This is a center container.It will go till a given width and content will be centre</div>
+    </section>
+    <hr>
+    <section class="links">
+        <h2 class="section-title">@links</h2>
+        <br />
+        <a href="#" class="btn btn-primary">Primary Link</a>
+        <a href="#" class="btn btn-secondary">Secondary Link</a>
+
+         <button class="btn btn-primary-outline">P Outline</button>
+        <button class="btn btn-secondary-outline">S Outline</button>
+        
+      </section>
+       <hr  />  
+       <section class="lists">
+        <h2 class="section-title">@Lists</h2>
+        <br>
+        <h3>unordered Lists</h3>
+        <ul class="unordered">
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ul>
+
+        <h3>Inline Lists</h3>
+        <ul class="unordered list-inline">
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ul>
+      </section>
+      <hr />
+
+      <h2 class="section-title">@Nav</h2>
+      <br>
+      <nav class="nav container-fluid">
+        <div class="container">
+          <div class="brand">KANAGARAJ M</div>
+          <ul>
+            <li>
+              <a href="/"  class="active">Home</a>
+            </li>
+            <li>
+              <a href="/"  class="active">Projects</a>
+            </li>
+            <li>
+              <a href="/"  class="active">Blogs</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr />
+
+      <h2 class="section-title">@HEADER</h2>
+      <header class="container-hero">
+        <img src="data:image/png;base64,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" alt="hero-image" />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZZms9mD7r7tYXnIkbFTtXUrrOGwUtzPwKOA&usqp=CAU"
+          class="img-circle"
+          alt="hero-image"
+        />
+
+        <h1>This is main heading of Page</h1>
+      </header>
+      <hr />
+
+      <h2 class="section-title">@section</h2>
+      <!-- Normal Section -->
+      <section class="section">
+        <h2 class="section-title">Heading inside section</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+          similique reiciendis accusantium error unde voluptate quo earum iusto
+          ab. Magni.
+        </p>
+        <a href="#" class="btn btn-primary">Section Button</a>
+      </section>
+      <hr />
+      <!-- dark section -->
+      <section class="section-dark">
+        <h2 class="section-title">Heading inside section</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+          similique reiciendis accusantium error unde voluptate quo earum iusto
+          ab. Magni.
+        </p>
+        <a href="#" class="btn btn-primary-outline">Section Button</a>
+      </section>
+      <hr />
+
+      <footer class="footer container-fuid">
+        <div class="container">
+          <h2 class="section-title">Header Inside Footer</h2>
+          <br>
+          <ul class="unordered-list-inline">
+            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></li>
+            
+          </ul>
+        </div>
+      </footer>
+      <hr>
+      <div style="margin-top: 100px;"></div>
+</main>
 </body>
-</html>
+</html>  
+        
+
+
